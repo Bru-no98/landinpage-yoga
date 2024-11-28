@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #143109
+ 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Red Hat Display", serif;
+    padding: 4%;
+    align-items: center;
+    background-color: #aaae7f;
+}
+
+.home{
+    font-size: 30px;
+}
+.ancoras__header{
+    display: flex;
+    gap: 5%;
+    font-size:20px
+}
+.cadastro{
+    width: 273px;
+}
+
+body{
+    background-color: #efefef;
+}
+
+section{
+    max-width: 100vw;
+}
+
+h1{
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 120px auto;
+    max-width: 40%;
+}
+
+.primeira__parte{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 4%;
+    font-family: "Red Hat Display", serif;
+}
+
+.div__yoga{
+    width: 51%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imagem__yoga{
+    max-width: 100%;
+}
+
+.div__meditacao{
+    width: 30%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.imagem__meditacao{
+    max-width: 100%;
+}
+
+.segunda__parte{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4%;
+    font-family: "Red Hat Display", serif;
+    margin-top: 200px;
+}
+
+
+h2{
+    padding-bottom: 30px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 40px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.segunda__parte__texto{
+    width: 43.5%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagem__alongamento{
+    width: 43.5%;
+}
+
+.segunda__parte__paragrafo{
+    padding-bottom: 30px;
+}
+
+.segunda__parte__botao{
+    width: 200px;
+    padding: 20px;
+    border: 4px solid #47663B;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.terceira__parte{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 320px;
+    font-family: "Poiret One", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    
+}
+
+
+.terceira__parte__1p{
+    padding-bottom: 30px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+.terceira__parte__paragrafo{
+    padding-bottom: 30px;
+}
+
+.quarta__parte{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4%;
+    font-family: "Red Hat Display", serif;
+    padding-bottom: 6%;
+}
+
+.terceira__parte_a{
+    font-weight: 500;
+    border-bottom: black solid 3px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    font-family: "Red Hat Display", serif;
+    background-color: #aaae7f;
+}
+
+.div__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.footer__destaque{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+input{
+    width: 350px;
+    height: 30px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+}
